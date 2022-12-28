@@ -3,7 +3,6 @@ body {
 }
 .list {
     list-style: none;
-    text-decoration: none;
 }
 .link {
     text-decoration: none;
@@ -31,9 +30,22 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.button-link {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;;
+}
+.button-link:hover,
+.button-link:focus {
+background-color: #4D5AE5;
+color: #FFFFFF;
+}
 /* ==================<header>============== */
 .heder{
-
 }
 .header-navigation { 
     font-weight: 500;
@@ -64,16 +76,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 }
-.header-list {
-}
-.header-item {
-}
-.header-linc {
-}
-.contacts-list{
-}
-.contacts-item{
-}
+
 .mail { 
     font-weight: 400;
 font-size: 16px;
@@ -98,26 +101,9 @@ line-height: 0.93;
 text-align: center;
 letter-spacing: 0.02em;
 /* color: #FFFFFF; */
+}
 
-}
-.hero-btn {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-}
 /* ==================</hero>============== */
-.about {
-}
-.about-list {
-}
-.abaut-item {
-}
-.about-title {
-}
-.abaut-text {
-}
+
+
 
