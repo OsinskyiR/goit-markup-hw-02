@@ -53,6 +53,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 .titel-medium {
   font-weight: 700;
   font-size: 36px;
@@ -61,6 +62,7 @@ body {
   text-transform: capitalize;
   color: var(--main-color);
 }
+
 .title-small {
   font-weight: var(--font-weight);
   font-size: 20px;
@@ -68,7 +70,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.button-link {
+
+.main-button-link {
   font-weight: var(--font-weight);
   font-size: 16px;
   line-height: 1.5;
@@ -77,10 +80,16 @@ body {
   background-color: var(--sekond-color);
   color: #ffffff;
 }
-.button-link:hover,
-.button-link:focus {
+
+.main-button-link:hover,
+.main-button-linc:focus {
   background-color: #404bbf;
   color: #ffffff;
+}
+
+.button-link {
+  background-color: #f4f4fd;
+  color: var(--sekond-color);
 }
 
 .logo {
