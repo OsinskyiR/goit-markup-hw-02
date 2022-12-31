@@ -93,9 +93,14 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  background-color: #E7E9FC;
+  background-color: #F4F4FD;
   color: var(--sekond-color);
-}
+  }
+
+  .button-link:hover,
+  .breadcrumbs:focus {
+    background-color: #E7E9FC;
+  }
 
 .logo {
   font-family: "Raleway", sans-serif;
